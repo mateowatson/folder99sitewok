@@ -1,0 +1,4 @@
+url_include_index: false
+url_pattern: /{category}/{slug}.{ext}
+
+site_title: 'SP 102 Matt Watson'

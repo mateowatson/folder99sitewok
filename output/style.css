@@ -1,0 +1,47 @@
+body {
+	font-family: "Cambria", serif;
+	font-size: 18px;
+	line-height: 1.45em;
+	width: 790px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 25px;
+	margin-bottom: 18px;
+	font-family: "Avenir Next", "Avenir", "Helvetica", sans-serif;
+	line-height: 1.45em;
+	font-weight: bold;
+	color: black;
+}
+a:link, a:visited {
+	color: #3971db;
+	text-decoration: none;
+}
+a:hover {
+	color: #27509d;
+}
+ul {
+	margin-bottom: 29px;
+}
+img {
+	display: block;
+	max-width: 100%;
+	margin-bottom: 29px;
+}
+input[type="text"] {
+  display: inline;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
+  color: #006600;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  padding: 5px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+}
+input[type="text"]:focus, input[type="text"].focus {
+  border: solid 5px #969696;
+}
