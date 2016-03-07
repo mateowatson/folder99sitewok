@@ -1,6 +1,6 @@
 body {
 	font-family: "Cambria", serif;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 1.45em;
 	width: 790px;
 	margin: 0 auto;
@@ -44,4 +44,20 @@ input[type="text"] {
 }
 input[type="text"]:focus, input[type="text"].focus {
   border: solid 5px #969696;
+}
+
+/*!
+CSS for tables
+*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table, th, td {
+   border: 1px solid black;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
 }
